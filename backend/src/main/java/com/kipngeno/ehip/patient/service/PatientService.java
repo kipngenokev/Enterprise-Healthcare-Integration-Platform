@@ -3,6 +3,7 @@ package com.kipngeno.ehip.patient.service;
 import com.kipngeno.ehip.patient.dto.CreatePatientRequest;
 import com.kipngeno.ehip.patient.dto.PatientResponse;
 import com.kipngeno.ehip.patient.entity.Patient;
+import com.kipngeno.ehip.patient.exceptions.DuplicateMedicalRecordNumberException;
 import com.kipngeno.ehip.patient.repository.PatientRepository;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +20,7 @@ public class PatientService {
 
     public PatientResponse registerPatient(CreatePatientRequest patientRequest) {
         if(patientRepository.existsByMedicalRecordNumber(patientRequest.getMedicalRecordNumber())) {
-            throw new IllegalArgumentException("Medical record number already exists");
+            throw new DuplicateMedicalRecordNumberException("Medical record number already exists");
         }
 
         Patient patient = new Patient();

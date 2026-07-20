@@ -1,8 +1,11 @@
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/EhipApplication.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/controller/PatientController.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/dto/CreatePatientRequest.java
+/home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/dto/ErrorResponse.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/dto/PatientResponse.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/entity/Gender.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/entity/Patient.java
+/home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/exceptions/DuplicateMedicalRecordNumberException.java
+/home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/exceptions/GlobalExceptionHandler.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/repository/PatientRepository.java
 /home/kipngeno-kevin/Desktop/Enterprise-Healthcare-Integration-Platform/backend/src/main/java/com/kipngeno/ehip/patient/service/PatientService.java
